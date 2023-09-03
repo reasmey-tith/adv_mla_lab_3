@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "adv-mla-lab-3"
+version = "0.1.0"
+description = "hyperparameter tuning"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "adv_mla_lab_3"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+jupyterlab = "3.6.3"
+pandas = "2.0.1"
+scikit-learn = "1.2.2"
+xgboost = "1.7.6"
+lime = "0.2.0.1"
+hyperopt = "0.2.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
